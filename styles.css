@@ -25,7 +25,7 @@ body {
   color: var(--text);
   line-height: 1.55;
   -webkit-font-smoothing: antialiased;
-  padding-bottom: 4.75rem;
+  padding-bottom: 6.25rem;
 }
 img { max-width: 100%; height: auto; display: block; }
 a { color: inherit; text-decoration: none; }
@@ -434,15 +434,15 @@ footer {
 /* STICKY */
 .sticky-bar {
   position: fixed; bottom: 0; left: 0; right: 0; z-index: 60;
-  display: flex; align-items: center; justify-content: space-between;
-  gap: 0.75rem;
-  padding: 0.7rem 1rem calc(0.7rem + env(safe-area-inset-bottom, 0));
+  display: flex; justify-content: center;
+  padding: 0.65rem 1rem calc(0.65rem + env(safe-area-inset-bottom, 0));
   background: rgba(5,5,7,0.94);
   backdrop-filter: blur(14px);
   border-top: 1px solid rgba(212,165,116,0.2);
 }
-.sticky-bar-text { font-size: 0.85rem; font-weight: 650; color: var(--text); }
-.sticky-bar .btn { padding: 0.65rem 1.1rem; font-size: 0.9rem; flex-shrink: 0; }
+.sticky-bar-content { display: flex; flex-direction: column; align-items: center; gap: 0.2rem; width: 100%; }
+.sticky-bar-text { font-size: 0.76rem; font-weight: 650; line-height: 1.25; color: var(--text); text-align: center; }
+.sticky-bar .btn { padding: 0.6rem 1.1rem; font-size: 0.9rem; }
 @media (min-width: 900px) {
   .sticky-bar { display: none; }
   body { padding-bottom: 0; }
