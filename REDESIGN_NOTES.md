@@ -16,3 +16,11 @@ Direction: **dark sophisticated editorial ecommerce** — one accent (champagne 
 10. **Sticky mobile CTA + refined nav** — gold pill CTA; SEO guide links preserved; article pages inherit new shared chrome via `styles.css`.
 11. **OG image refreshed** — `og:image` / Twitter / schema point to `assets/gen/og-banner.png`.
 12. **Buy card premium** — bordered gold card with gen product visual + price stack; Payhip CTA unchanged (`https://payhip.com/b/SoUNM`).
+
+## Overnight polish (2026-09-22 ~22:40 PT)
+
+13. **QA live** — all gallery/gen/mocks HTTP 200; Payhip `SoUNM` ×6 (nav/hero/truth/buy/sticky + schema); OG/Twitter → `assets/gen/og-banner.png`.
+14. **Muted contrast** — `#9a948a` → `#aea89e` (~8.6:1 on bg).
+15. **FR micro-copy** — “Fini le design à zéro”; “Tout dedans”; sticky “ZIP · 29 €”; less anglicisms.
+16. **New assets** — `color-pack-showcase.png`, `quote-card.png` (intention, no fake customer); before-after FR caption band (webp/jpg).
+17. **Before/after EN overlay** — original gen EN slogans covered by FR band.

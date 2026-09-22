@@ -5,7 +5,7 @@
   --surface-2: #1a1a20;
   --line: rgba(244, 239, 230, 0.08);
   --text: #f4efe6;
-  --muted: #9a948a;
+  --muted: #aea89e;
   --accent: #d4a574;
   --accent-soft: rgba(212, 165, 116, 0.14);
   --accent-glow: rgba(212, 165, 116, 0.35);
@@ -465,3 +465,12 @@ footer {
 .related { list-style: none; padding: 0; }
 .related li { margin: 0.5rem 0; }
 .related a { color: var(--accent); }
+
+/* Overnight polish */
+.color-showcase { margin: 1.75rem 0 0.25rem; }
+.quote-sec { padding: 1.5rem 0 0.5rem; }
+.sticky-bar-text { letter-spacing: -0.01em; }
+@media (max-width: 380px) {
+  .sticky-bar-text { font-size: 0.78rem; }
+  .nav-cta { padding: 0.5rem 0.85rem; font-size: 0.82rem; }
+}
