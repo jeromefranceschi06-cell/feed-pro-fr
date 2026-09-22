@@ -24,3 +24,10 @@ Direction: **dark sophisticated editorial ecommerce** — one accent (champagne 
 15. **FR micro-copy** — “Fini le design à zéro”; “Tout dedans”; sticky “ZIP · 29 €”; less anglicisms.
 16. **New assets** — `color-pack-showcase.png`, `quote-card.png` (intention, no fake customer); before-after FR caption band (webp/jpg).
 17. **Before/after EN overlay** — original gen EN slogans covered by FR band.
+
+## Luxury + 4-colors integrate (2026-09-22 ~22:45 PT)
+
+18. **`assets/gen/4colors-grid.png`** — prominent hero of `#couleurs` (before phone cards).
+19. **`assets/gen/bg-luxury.png`** — subtle hero backdrop via `.hero-luxury` (dark overlay + cover).
+20. **`/creatives`** — ads gallery (`assets/ads/*` + gen grid/OG); sitemap + footer/guides links.
+21. **EN watermark scan** — live gen/ads reviewed; before-after already FR-banded (webp/jpg); no remaining EN slogans on homepage-linked images.
