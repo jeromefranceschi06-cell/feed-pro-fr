@@ -256,3 +256,38 @@ footer {
   font-size: 0.85rem; color: var(--gris);
 }
 footer strong { color: var(--noir); }
+
+/* Value stack / dream reposition */
+.stack-banner {
+  background: var(--noir);
+  color: var(--creme);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.98rem;
+}
+.stack-banner strong { color: var(--blanc); }
+.content-row.bonus {
+  border-left: 3px solid var(--teal);
+  padding-left: 0.85rem;
+  margin-left: -0.15rem;
+}
+.tag-new {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  background: rgba(15,123,108,0.15);
+  color: var(--teal);
+  padding: 0.2rem 0.5rem;
+  border-radius: 999px;
+  vertical-align: middle;
+  margin-left: 0.35rem;
+}
+.value-note {
+  margin: -0.5rem 0 1.25rem;
+  font-size: 0.9rem;
+  color: var(--gris);
+}
+.buy .value-note { color: rgba(245,240,232,0.75); }
