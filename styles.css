@@ -305,3 +305,85 @@ footer {
   font-size: .85rem;
 }
 footer p { margin: .35rem 0; }
+
+/* NAV LINKS (light internal SEO) */
+.nav-links {
+  display: none;
+  gap: .85rem;
+  font-size: .8rem;
+  color: var(--muted);
+}
+.nav-links a:hover { color: var(--text); }
+@media (min-width: 820px) {
+  .nav-links { display: flex; align-items: center; }
+  .nav-inner { gap: 1rem; }
+  .nav-links { margin-right: auto; margin-left: 1.25rem; }
+}
+.nav-cta {
+  box-shadow: 0 0 0 2px rgba(47,111,237,.35);
+  animation: cta-pulse 2.8s ease-in-out infinite;
+}
+@keyframes cta-pulse {
+  0%, 100% { box-shadow: 0 0 0 2px rgba(47,111,237,.3); }
+  50% { box-shadow: 0 0 0 4px rgba(47,111,237,.15); }
+}
+
+/* SOCIAL PROOF — honest */
+.social-proof {
+  display: flex; flex-wrap: wrap; gap: .5rem .75rem;
+  align-items: center;
+  margin: .85rem 0 0;
+  font-size: .82rem;
+  color: var(--muted);
+}
+.social-proof .dot { opacity: .5; }
+.social-proof strong { color: var(--cream); font-weight: 650; }
+
+/* STICKY BOTTOM CTA */
+.sticky-bar {
+  position: fixed; bottom: 0; left: 0; right: 0; z-index: 60;
+  display: flex; align-items: center; justify-content: space-between;
+  gap: .75rem;
+  padding: .65rem 1rem calc(.65rem + env(safe-area-inset-bottom, 0));
+  background: rgba(14,14,16,.94);
+  backdrop-filter: blur(12px);
+  border-top: 1px solid rgba(255,255,255,.1);
+}
+.sticky-bar-text { font-size: .85rem; font-weight: 650; color: var(--cream); }
+.sticky-bar .btn { padding: .65rem 1.1rem; font-size: .9rem; flex-shrink: 0; }
+body { padding-bottom: 4.5rem; }
+@media (min-width: 900px) {
+  .sticky-bar { display: none; }
+  body { padding-bottom: 0; }
+}
+
+/* ARTICLE / SEO PAGES */
+.article-wrap { padding: 1.5rem 0 3rem; }
+.article h1 {
+  font-size: clamp(1.55rem, 3.5vw, 2.1rem);
+  letter-spacing: -.02em; line-height: 1.2;
+  margin: 0 0 1rem;
+}
+.article h2 {
+  font-size: 1.2rem; margin: 1.75rem 0 .65rem;
+  letter-spacing: -.01em;
+}
+.article .lede { font-size: 1.05rem; color: var(--muted); margin: 0 0 1.25rem; }
+.article .breadcrumb { font-size: .8rem; color: var(--muted); margin: 0 0 1rem; }
+.article .breadcrumb a { text-decoration: underline; text-underline-offset: 2px; }
+.article ul, .article ol { color: var(--muted); padding-left: 1.2rem; }
+.article li { margin: .35rem 0; }
+.article p { color: var(--muted); }
+.article a { color: #7eb0ff; text-decoration: underline; text-underline-offset: 2px; }
+.article-cta {
+  margin: 2rem 0;
+  padding: 1.25rem;
+  background: var(--surface);
+  border-radius: var(--radius);
+  border: 1px solid rgba(255,255,255,.08);
+  text-align: center;
+}
+.article-cta .product-truth { text-align: left; }
+.related { list-style: none; padding: 0; }
+.related li { margin: .5rem 0; }
+.related a { color: #7eb0ff; }

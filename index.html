@@ -42,7 +42,13 @@
 <body>
   <header class="nav">
     <div class="container nav-inner">
-      <a class="logo" href="#">Feed <span>Pro</span></a>
+      <a class="logo" href="/">Feed <span>Pro</span></a>
+      <nav class="nav-links" aria-label="Guides">
+        <a href="/guide-instagram-freelance">Guide</a>
+        <a href="/kit-feed-instagram">Kit</a>
+        <a href="/calendrier-contenu-instagram">Calendrier</a>
+        <a href="/templates-instagram-canva-png">Templates</a>
+      </nav>
       <a class="nav-cta" href="https://payhip.com/b/SoUNM">Obtenir le ZIP — 29 €</a>
     </div>
   </header>
@@ -60,15 +66,22 @@
             <span class="price-pill">Paiement unique · <strong>29 €</strong></span>
           </div>
           <p class="reassure">4 palettes · Téléchargement immédiat · Zéro promesse de revenus</p>
+          <p class="social-proof">
+            <strong>Produit en ligne</strong>
+            <span class="dot">·</span>
+            <span>Checkout Payhip actif</span>
+            <span class="dot">·</span>
+            <span>Pas encore d’avis clients affichés (lancement)</span>
+          </p>
         </div>
         <div class="hero-phones" aria-label="Aperçu Instagram Feed Pro">
-          <img class="phone-main" src="assets/mock-dual.png" alt="Deux téléphones Instagram montrant des feeds Feed Pro complets" width="1600" height="1200" />
+          <img class="phone-main" src="assets/mock-dual.png" alt="Deux téléphones Instagram montrant des feeds Feed Pro complets" width="1400" height="1050" fetchpriority="high" decoding="async" />
         </div>
       </div>
       <div class="container hero-phones-row" aria-hidden="true">
-        <img src="assets/mock-noir-creme.png" alt="" width="600" height="800" loading="eager" />
-        <img src="assets/mock-ocean.png" alt="" width="600" height="800" loading="eager" />
-        <img src="assets/mock-terracotta.png" alt="" width="600" height="800" loading="eager" />
+        <img src="assets/mock-noir-creme.png" alt="" width="600" height="800" loading="lazy" decoding="async" />
+        <img src="assets/mock-ocean.png" alt="" width="600" height="800" loading="lazy" decoding="async" />
+        <img src="assets/mock-terracotta.png" alt="" width="600" height="800" loading="lazy" decoding="async" />
       </div>
     </section>
 
@@ -103,7 +116,7 @@
     <!-- PHONES SHOWCASE -->
     <section class="phones-band">
       <div class="container">
-        <img class="triple" src="assets/mock-triple.png" alt="Trois iPhones — Ocean, Noir &amp; Crème, Forest" width="1800" height="1100" loading="lazy" />
+        <img class="triple" src="assets/mock-triple.png" alt="Trois iPhones — Ocean, Noir &amp; Crème, Forest" width="1600" height="977" loading="lazy" decoding="async" />
         <img class="mock-solo" src="assets/mock-forest.png" alt="iPhone feed Forest" width="1200" height="1600" loading="lazy" />
       </div>
     </section>
@@ -160,6 +173,23 @@
       </div>
     </section>
 
+
+    <!-- GUIDES SEO -->
+    <section class="alt" id="guides">
+      <div class="container">
+        <div class="section-head tight">
+          <h2>Guides gratuits</h2>
+          <p>Contenu utile — le ZIP reste optionnel.</p>
+        </div>
+        <div class="steps three" style="margin-top:1rem">
+          <div class="step"><h3><a href="/guide-instagram-freelance" style="color:inherit;text-decoration:underline">Guide freelance</a></h3><p>Feed clair sans usine à gaz.</p></div>
+          <div class="step"><h3><a href="/calendrier-contenu-instagram" style="color:inherit;text-decoration:underline">Calendrier 30 j</a></h3><p>Idées de posts, rythme réaliste.</p></div>
+          <div class="step"><h3><a href="/kit-feed-instagram" style="color:inherit;text-decoration:underline">Contenu du kit</a></h3><p>PNG × 4 + textes + plan.</p></div>
+        </div>
+        <p class="center-note"><a href="/templates-instagram-canva-png" style="color:#7eb0ff">Templates PNG</a> · <a href="/feed-instagram-freelance" style="color:#7eb0ff">Checklist 60 min</a></p>
+      </div>
+    </section>
+
     <!-- FAQ short -->
     <section id="faq">
       <div class="container narrow">
@@ -199,8 +229,19 @@
   <footer>
     <div class="container">
       <p><strong>Feed Pro</strong> — un ZIP à 29 €. Pas une formation. Zéro promesse de revenus.</p>
+      <p>
+        <a href="/guide-instagram-freelance">Guide</a> ·
+        <a href="/kit-feed-instagram">Kit</a> ·
+        <a href="/calendrier-contenu-instagram">Calendrier</a> ·
+        <a href="/templates-instagram-canva-png">Templates</a> ·
+        <a href="/feed-instagram-freelance">Checklist</a>
+      </p>
       <p>© 2026 Feed Pro · Freelances FR</p>
     </div>
   </footer>
+  <div class="sticky-bar" aria-label="CTA sticky">
+    <span class="sticky-bar-text">ZIP Instagram · 29 € · accès immédiat</span>
+    <a class="btn btn-primary" href="https://payhip.com/b/SoUNM">Obtenir le ZIP</a>
+  </div>
 </body>
 </html>
