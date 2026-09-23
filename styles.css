@@ -401,22 +401,49 @@ a { color: inherit; text-decoration: none; }
 }
 .reassure { color: var(--muted); font-size: 0.85rem; margin: 0.85rem 0 0; }
 
-/* FOOTER */
+/* FOOTER — higher contrast for trust/legal */
 footer {
   padding: 2.25rem 0 3rem;
   border-top: 1px solid var(--line);
-  color: var(--muted); font-size: 0.85rem;
+  color: var(--text); font-size: 0.88rem;
   background: var(--bg-elev);
 }
 .footer-inner { text-align: center; }
 .footer-inner p { margin: 0.4rem 0; }
+.footer-lead { color: var(--text); }
 .footer-links {
   display: flex; flex-wrap: wrap; justify-content: center; gap: 0.75rem 1.1rem;
   margin: 0.85rem 0 !important;
 }
-.footer-links a:hover { color: var(--text); }
-.footer-copy { opacity: 0.85; }
+.footer-links a {
+  color: var(--text);
+  font-weight: 550;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: rgba(28, 24, 20, 0.28);
+}
+.footer-links a:hover { color: var(--accent-ink); text-decoration-color: var(--accent); }
+.footer-links-legal {
+  margin-top: 0.35rem !important;
+  font-size: 0.86rem;
+}
+.footer-links-legal a { font-weight: 600; }
+.footer-copy { color: var(--muted); opacity: 1; font-size: 0.82rem; }
 .brand-soft { color: var(--text); font-weight: 600; }
+
+/* Buy CTA trust line */
+.pay-trust {
+  margin: 0.85rem 0 0;
+  font-size: 0.86rem;
+  font-weight: 550;
+}
+.pay-trust a {
+  color: var(--muted);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: rgba(28, 24, 20, 0.25);
+}
+.pay-trust a:hover { color: var(--text); text-decoration-color: var(--accent); }
 
 /* STICKY — light bar */
 .sticky-bar {
